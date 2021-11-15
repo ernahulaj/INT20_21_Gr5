@@ -169,13 +169,79 @@ table td {
     box-shadow: 0px 0 20px 0px rgba(0,0,0,1); 
  }
 
-  .shirit
-{
-    color:#fff;
-    background: grey;
-    width:100%;
-    margin:auto;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 25px;
+ .shirit
+  {
+      color:#fff;
+      background: grey;
+      width:100%;
+      margin:auto;
+      text-align: center;
+      padding-top: 30px;
+      font-size: 25px;
+      padding-bottom: 30px;
+  }
+  
+  .artist img
+  {
+      float:left;
+      width:25%;
+      margin-right: 0;
+      margin-bottom: 0.5em;
+      padding-bottom: 30px;
+  }
+  
+  .footer
+  {
+  
+      width: 100%;
+      text-align: center;
+      padding: 30px 0;
+      background-color: antiquewhite;
+      border-top: #f26dc1;    
+      
+  }
+  .footer p{
+      padding-top:15px;
+      text-align: center;
+  }
+  .footer h4
+  {
+      margin-top: 15px;
+      text-align: center;
+      padding-bottom: 25px;
+      font-weight: 600;
+      font-size: 30px;
+  }
+  
+  .newsletter input{
+      width: 50%;
+      height: 100px;
+      display: inline-block;
+      box-sizing: border-box;
+      font-size: 30px;
+      border:0;
+      text-align: center;
+  }
+  
+  .newsletter button 
+  {
+      width: 50%;
+      height: 100px;
+      font-size: 30px;
+      float: right;
+      border:0;
+      background: darkblue;
+      color: #fff;
+      
+  }
+  
+  .icons img
+  {   padding-bottom: 10px;
+      float: center;
+      width: 2%;
+      margin-right: 0;
+      padding-left: 10px;
+}
+.icons a {
+    text-decoration: none;
 }
