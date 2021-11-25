@@ -81,6 +81,29 @@ position: relative;
 {
     width: 100%;
 }
+
+.nav-links ul li:hover .sub-menu{
+    display: flex;
+    position: absolute;
+    background: rgba(240, 172, 204, 0.6); 
+    text-align: left;  
+}
+
+.nav-links ul li:hover .sub-menu ul li{
+    padding: 11px;
+    width: 100%;
+    padding-bottom: 1px;
+}
+
+.nav-links ul li:hover::after
+{
+    width: 100%;
+   
+}
+
+.sub-menu{
+    display: none;
+}
 .text-box
 {
     width:90%;
