@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Night Pulse Festival</title>
+<title>Tickets</title>
 <link rel="icon" href="LogoMakr-172yrl.png" type="image/icon type">
 <link rel="stylesheet" href="Music festival.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,600;1,300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet"> 
-<title>accordion</title>
 <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 
@@ -68,21 +63,27 @@
     </section>
 
     <section class="Tickets">
-      
         <table border="1" cellpadding="1" cellspacing="1">
             <tr>
-                <th style="background-color: antiquewhite;">BELIEVERS </br>
-                    <button class="buton">COMING SOON</button></th>
+                <th style="background-color: antiquewhite;">BELIEVERS</br>
+                    <button class="buton" style="width: 80%;"><dl>
+                        <dt></dt>
+                        <dd style="font-size: 15px;">Night Pulse Believers are tickets for those who believe that we will make their summer the best ever!<br></dd>
+                    </dl></button></th>
                 <th style="background-color: antiquewhite;">EARLY BIRD</br>
-                    <button class="buton">COMING SOON</button></th>
+                    <button class="buton" style="width: 80%;"><dt></dt>
+                        <dd style="font-size: 15px;">Night Pulse Early Bird tickets selling fast & ending soon!<br>Grab yours while you still have the chance!<br></dd>
+                    </dl></button></th>
                 <th style="background-color: antiquewhite;">REGULAR</br>
-                    <button class="buton">COMING SOON</button></th>
+                    <button class="buton" style="width: 80%;"><dt></dt>
+                        <dd style="font-size: 15px;">If you missed out on our other tickets, you still have the chance to join in on the fun with our Regular Tickets!</dd>
+                    </dl></button></th>
                 <th style="background-color: antiquewhite;">VIP</br>
-                    <button class="buton">COMING SOON</button></th>
+                    <button class="buton" style="width: 80%;"><dt></dt>
+                        <dd style="font-size: 15px;">For the true fans of Night Pulse Festival, get VIP Tickets with better view and have full backstage access!</dd>
+                    </dl></button></th>
             </tr>
-        
         </table>
-    
     </section>
 
     <section class="buy_ticket">
@@ -92,8 +93,8 @@
         </h1>   
         <br><br>
         <div class="form" >  
-     <form action="">
-         <label for="name">Name:</label>
+            <form action="">
+                <label for="name">Name:</label>
                 <input type="text" placeholder="Enter your name" required>
                 <label for="Surname">Surname:</label>
                 <input type="text" placeholder="Enter your surname" required>
@@ -118,17 +119,22 @@
                 <input type="text" placeholder="XXXXXXXXXXXXXXXX" required>
                 <label for="card">Card type:</label>
                 <br><br>
-                <label for="Visa">VISA</label>
-                <input type="radio" id="Visa" name="card" value="VISA" required>
-                <label for="MasterCard">MASTER CARD</label>
-                <input type="radio" id="MasterCard" name="card" value="MASTER CARD" required>
-             
-                <label for="terms">By clicking, you agree to our <b>Terms</b> and that you have read our <u><b>Data Use Policy</b></u>,
-                    <br>including our <b>Cookie Use</b></label>
-                <input type="checkbox" id="terms" name="terms" value="TERMS" required>
-                <br><br>
+                <div style="white-space: nowrap; overflow: hidden;">
+                    <label for="Visa">VISA&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;</label>
+                    <input type="radio" id="Visa" name="card" value="VISA" required>
+                </div>
+                <div style="white-space: nowrap; overflow: hidden;">
+                    <label for="MasterCard">MASTER CARD &emsp;&emsp;&emsp;&ensp;&ensp;</label>
+                    <input type="radio" id="MasterCard" name="card" value="MASTER CARD" required>
+                </div>
+               
+                <div style="white-space: nowrap; overflow: hidden;">
+                    <label for="terms">By clicking, you agree to our <b>Terms</b> and that you have read our <u><b>Data Use Policy</b></u>,<br>
+                        including our <b>Cookie Use</b></label>
+                    <input style="position: relative; left: 0;" type="checkbox" id="terms" name="terms" value="TERMS" required>
+                </div>
                 <button type="submit" class="book">Book</button><BR><BR>
-    </form>
+            </form>
         </div>
     </section>
 
