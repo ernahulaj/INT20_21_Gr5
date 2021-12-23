@@ -318,7 +318,29 @@ table td {
 .icons a {
     text-decoration: none;
 }
+#faq{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #283042;
+}
 
+.faq{
+    max-width: 87%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.question, .answer{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .sub-header{
     height: 50vh;
