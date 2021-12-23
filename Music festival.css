@@ -342,6 +342,36 @@ table td {
     align-items: center;
 }
 
+.question p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+.answer p {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    line-height: 1.4;
+}
+.answer ol li
+{
+    padding: 0.5rem;
+    position: relative;
+    color: rgba(255,255,255,.6);
+    font-size: 1.4rem;
+    padding-left: 35px;
+   list-style-position: inside;
+   list-style-type:circle;
+}
+
+.faq.active .answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
 .sub-header{
     height: 50vh;
     width: 100%;
