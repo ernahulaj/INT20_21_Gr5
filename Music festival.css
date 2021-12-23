@@ -371,7 +371,24 @@ table td {
     max-height: 300px;
     animation: fade 1s ease-in-out;
 }
+.faq.active svg{
+    transform: rotate(180deg);
+}
 
+svg{
+    transition: transform .5s ease-in;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 .sub-header{
     height: 50vh;
     width: 100%;
