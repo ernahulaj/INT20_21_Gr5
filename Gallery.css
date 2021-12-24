@@ -17,3 +17,6 @@
     background-position: center;
     cursor: pointer;
 }
+#index-gallery .h1{
+    grid-area: gallery-h1;
+}
