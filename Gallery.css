@@ -32,8 +32,7 @@
     grid-area: sh3;
     background-image: url("gallery/thumbs/sh3.jpeg");
 }
-#index-gallery .sh4{
-    
+#index-gallery .sh4{    
     grid-area: sh4;
     background-image: url("gallery/thumbs/sh4.jpeg");
 }
@@ -45,3 +44,4 @@
      grid-area: sh6;
     background-image: url("gallery/thumbs/sh6.jpeg");
 }
+#index-gallery .sh7{}
