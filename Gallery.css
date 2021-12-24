@@ -20,3 +20,7 @@
 #index-gallery .h1{
     grid-area: gallery-h1;
 }
+#index-gallery .sh1{
+    grid-area: sh1;
+    background-image: url("gallery/thumbs/sh1.jpeg");
+}
