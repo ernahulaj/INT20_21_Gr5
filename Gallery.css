@@ -1,0 +1,11 @@
+#index-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas: 
+    "gallery-h1 gallery-h1 gallery-h1 gallery-h1"
+    "sh1 sh3 sh3 sh2"
+    "sh4 sh4 sh5 sh5"
+    "sh7 sh6 sh6 sh8";
+}
