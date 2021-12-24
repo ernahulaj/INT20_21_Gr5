@@ -9,3 +9,6 @@
     "sh4 sh4 sh5 sh5"
     "sh7 sh6 sh6 sh8";
 }
+#index-gallery .gallery-img{
+    width: 100%;
+    height: 450px;
