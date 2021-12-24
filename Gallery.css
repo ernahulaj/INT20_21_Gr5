@@ -28,3 +28,7 @@
     grid-area: sh2;
     background-image: url("gallery/thumbs/sh2.jpeg");
 }
+#index-gallery .sh3{
+    grid-area: sh3;
+    background-image: url("gallery/thumbs/sh3.jpeg");
+}
