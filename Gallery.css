@@ -44,4 +44,7 @@
      grid-area: sh6;
     background-image: url("gallery/thumbs/sh6.jpeg");
 }
-#index-gallery .sh7{}
+#index-gallery .sh7{
+ grid-area: sh7;
+    background-image: url("gallery/thumbs/sh7.jpeg");
+}
