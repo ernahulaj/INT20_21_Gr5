@@ -58,4 +58,6 @@ grid-area: sh8;
     background-color: #000;
     opacity: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
