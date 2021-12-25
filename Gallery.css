@@ -89,6 +89,8 @@ grid-area: sh8;
     max-height: 80vh;
     max-width: 90vw;
 }
+\
+/* Next image*/
 .img-btn-next{
     display: block;
     padding: 6px 10px;
