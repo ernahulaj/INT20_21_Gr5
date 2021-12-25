@@ -98,3 +98,6 @@ grid-area: sh8;
     color: white;
     cursor: pointer;
 }
+.img-btn-next:hover{
+    opacity: 0.8;
+}
