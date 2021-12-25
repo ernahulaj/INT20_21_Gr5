@@ -52,6 +52,7 @@
 grid-area: sh8;
     background-image: url("gallery/thumbs/sh8.jpeg");
 }
+/*Gallery image titles*/
 .gallery-img div{
     width: 100%;
     height: 100%;
