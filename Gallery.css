@@ -83,3 +83,7 @@ grid-area: sh8;
     align-items: center;
     z-index: 100;
 }
+.img-window img{
+    max-height: 80vh;
+    max-width: 90vw;
+}
