@@ -61,3 +61,8 @@ grid-area: sh8;
     justify-content: center;
     align-items: center;
 }
+.gallery-img a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
