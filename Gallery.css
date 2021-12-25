@@ -66,3 +66,7 @@ grid-area: sh8;
     color: #fff;
     text-decoration: none;
 }
+.gallery-img div:hover{
+    opacity: 0.8;
+    transition: all ease-in-out 100ms;
+}
