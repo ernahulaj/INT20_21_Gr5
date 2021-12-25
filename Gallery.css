@@ -92,4 +92,9 @@ grid-area: sh8;
     padding: 6px 10px;
     border-radius: 4px;
     background-color:#111111;
+     position: fixed;
+    top: 48vh;
+    z-index: 500;
+    color: white;
+    cursor: pointer;
 }
