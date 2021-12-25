@@ -107,4 +107,8 @@ grid-area: sh8;
     border-radius: 4px;
     background-color: #111111;
     position: fixed;
+    top: 48vh;
+    z-index: 500;
+    color: white;
+    cursor: pointer;
 }
