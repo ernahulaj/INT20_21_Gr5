@@ -70,3 +70,11 @@ grid-area: sh8;
     opacity: 0.8;
     transition: all ease-in-out 100ms;
 }
+.img-window{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
