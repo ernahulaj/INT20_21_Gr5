@@ -112,3 +112,6 @@ grid-area: sh8;
     color: white;
     cursor: pointer;
 }
+.img-btn-prev:hover{
+    opacity: 0.8;
+}
