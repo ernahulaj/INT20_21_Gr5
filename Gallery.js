@@ -4,12 +4,12 @@ let windowWidth = window.innerWidth;
 
 
 if(galleryImages){ //vlere boolean qe eshte true nese galleryImages permban anetare
-    galleryImages.forEach(function(image, index) {
+    galleryImages.forEach(function(image, index) { //ne menyre qe me funksionu per secilen foto qe klikohet
         image.onclick = function(){
             let getElementCss = window.getComputedStyle(image);
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
-            let getImgUrlPos = getFullImgUrl.split("/gallery/thumbs/");
-            let setNewImgUrl = getImgUrlPos[1].replace('.jpeg")','');
+            let getImgUrlPos = getFullImgUrl.split("/gallery/thumbs/"); //ndan url te fotos ne dy pjese
+            let setNewImgUrl = getImgUrlPos[1].replace('.jpeg")',''); //meqe versioni i fotove 'thumbnail' eshte jpeg kurse i fotove te rritura jpg
             
 
             getLatestOpenedImg = index + 1;
