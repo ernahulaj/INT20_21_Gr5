@@ -12,10 +12,10 @@ if(galleryImages){ //vlere boolean qe eshte true nese galleryImages permban anet
             let setNewImgUrl = getImgUrlPos[1].replace('.jpeg")',''); //meqe versioni i fotove 'thumbnail' eshte jpeg kurse i fotove te rritura jpg
             
 
-            getLatestOpenedImg = index + 1;
+            getLatestOpenedImg = index + 1; //+1 sepse renditjen e fotove ne folder e kemi bere prej 1
 
             let container = document.body;
-            let newImgWindow = document.createElement("div");
+            let newImgWindow = document.createElement("div"); //krijon element div ne body 
             container.appendChild(newImgWindow);
             newImgWindow.setAttribute("class", "img-window");
             newImgWindow.setAttribute("onclick", "closeImg()");
