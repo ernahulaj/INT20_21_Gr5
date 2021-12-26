@@ -17,12 +17,12 @@ if(galleryImages){ //vlere boolean qe eshte true nese galleryImages permban anet
             let container = document.body;
             let newImgWindow = document.createElement("div"); //krijon element div ne body 
             container.appendChild(newImgWindow);
-            newImgWindow.setAttribute("class", "img-window");
+            newImgWindow.setAttribute("class", "img-window"); //shtohen atributet class dhe onclick ne elementin newImgWindow
             newImgWindow.setAttribute("onclick", "closeImg()");
 
             let newImg = document.createElement("img");
             newImgWindow.appendChild(newImg);
-            newImg.setAttribute("src","gallery/"+setNewImgUrl+".jpg");
+            newImg.setAttribute("src","gallery/"+setNewImgUrl+".jpg"); //shfaqet fotoja e re me format .jpg
             newImg.setAttribute("id","current-img");
 
             newImg.onload = function(){
