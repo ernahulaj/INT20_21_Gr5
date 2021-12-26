@@ -56,3 +56,24 @@ function closeImg(){
     document.querySelector(".img-btn-next").remove();
     document.querySelector(".img-btn-prev").remove();
 }
+
+function changeImg(changeDir){
+    document.querySelector("#current-img").remove();
+
+    let getImgWindow = document.querySelector(".img-window");
+    let newImg = document.createElement("img");
+    getImgWindow.appendChild(newImg);
+
+    let calcNewImg;
+    if(changeDir === 1){
+        calcNewImg = getLatestOpenedImg + 1;
+        if(calcNewImg > galleryImages.length){
+            calcNewImg = 1;
+        }
+    }
+    else if(changeDir === 0){
+        calcNewImg = getLatestOpenedImg - 1;
+        if(calcNewImg < 1){
+            calcNewImg = galleryImages.length;
+        }  
+    }
