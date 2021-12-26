@@ -25,21 +25,21 @@ if(galleryImages){ //vlere boolean qe eshte true nese galleryImages permban anet
             newImg.setAttribute("src","gallery/"+setNewImgUrl+".jpg"); //shfaqet fotoja e re me format .jpg
             newImg.setAttribute("id","current-img");
 
-            newImg.onload = function(){
+            newImg.onload = function(){ //fillimisht ngarkohet fotoja pastaj krijohen butonat
                 let imgWidth = this.width;
-                let calcImgToEdge = ((windowWidth - imgWidth)/2) - 90;
+                let calcImgToEdge = ((windowWidth - imgWidth)/2) - 90; //ne menyre qe butonat me u pozicionu sakte varesisht prej gjeresise se fotos
 
                 let newNextBtn = document.createElement("a");
                 let btnNextText = document.createTextNode("NEXT");
                 newNextBtn.appendChild(btnNextText);
                 container.appendChild(newNextBtn);
                 newNextBtn.setAttribute("class","img-btn-next");
-                newNextBtn.setAttribute("onclick","changeImg(1)");
+                newNextBtn.setAttribute("onclick","changeImg(1)"); //parametri 1 i shkon funksionit changeImg kur kalojme te fotoja next
                 newNextBtn.style.cssText = "right:"+calcImgToEdge+ "px";
     
     
                 let newPrevBtn = document.createElement("a");
-                let btnPrevText = document.createTextNode("PREV");
+                let btnPrevText = document.createTextNode("PREV"); //parametri 0 i shkon funksionit changeImg kur kalojme te fotoja previous
                 newPrevBtn.appendChild(btnPrevText);
                 container.appendChild(newPrevBtn);
                 newPrevBtn.setAttribute("class","img-btn-prev");
