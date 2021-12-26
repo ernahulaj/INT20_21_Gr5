@@ -77,3 +77,20 @@ function changeImg(changeDir){
             calcNewImg = galleryImages.length;
         }  
     }
+    
+    newImg.setAttribute("src", "gallery/sh"+calcNewImg+".jpg");
+    newImg.setAttribute("id", "current-img");
+
+    getLatestOpenedImg = calcNewImg;
+
+    newImg.onload = function(){
+        let imgWidth = this.width;
+        let calcImgToEdge = ((windowWidth - imgWidth)/2) - 90;
+
+        let nextBtn = document.querySelector(".img-btn-next");
+        nextBtn.style.cssText = "right:"+calcImgToEdge+ "px";
+
+        let prevBtn = document.querySelector(".img-btn-prev");
+        prevBtn.style.cssText = "left:"+calcImgToEdge+ "px";
+    }
+}
