@@ -51,14 +51,14 @@ if(galleryImages){ //vlere boolean qe eshte true nese galleryImages permban anet
 }
 
 
-function closeImg(){
+function closeImg(){ //ne rastin kur klikojme ne foto
     document.querySelector(".img-window").remove();
     document.querySelector(".img-btn-next").remove();
     document.querySelector(".img-btn-prev").remove();
 }
 
 
-function changeImg(changeDir){
+function changeImg(changeDir){ //ne rastin kur klikojme ne butona 
     document.querySelector("#current-img").remove();
 
     let getImgWindow = document.querySelector(".img-window");
@@ -69,13 +69,13 @@ function changeImg(changeDir){
     
     if(changeDir === 1){
         calcNewImg = getLatestOpenedImg + 1;
-        if(calcNewImg > galleryImages.length){
+        if(calcNewImg > galleryImages.length){ //kur jemi te elementi i fundit prej array next eshte elementi i pare
             calcNewImg = 1;
         }
     }
     else if(changeDir === 0){
         calcNewImg = getLatestOpenedImg - 1;
-        if(calcNewImg < 1){
+        if(calcNewImg < 1){ //kur jemi te elementi i pare i array previous eshte elementi i fundit
             calcNewImg = galleryImages.length;
         }  
     }
