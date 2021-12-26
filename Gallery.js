@@ -1,9 +1,9 @@
-let galleryImages = document.querySelectorAll(".gallery-img");
+let galleryImages = document.querySelectorAll(".gallery-img"); //array qe ruan fotot e body
 let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 
 
-if(galleryImages){
+if(galleryImages){ //vlere boolean qe eshte true nese galleryImages permban anetare
     galleryImages.forEach(function(image, index) {
         image.onclick = function(){
             let getElementCss = window.getComputedStyle(image);
