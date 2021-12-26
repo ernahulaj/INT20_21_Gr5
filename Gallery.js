@@ -1,7 +1,7 @@
-
 let galleryImages = document.querySelectorAll(".gallery-img");
 let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
+
 
 if(galleryImages){
     galleryImages.forEach(function(image, index) {
@@ -46,8 +46,6 @@ if(galleryImages){
                 newPrevBtn.setAttribute("onclick","changeImg(0)");
                 newPrevBtn.style.cssText = "left:"+calcImgToEdge+ "px";
             }
-
-            
         }
     });
 }
