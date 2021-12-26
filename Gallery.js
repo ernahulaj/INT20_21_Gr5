@@ -50,11 +50,13 @@ if(galleryImages){
     });
 }
 
+
 function closeImg(){
     document.querySelector(".img-window").remove();
     document.querySelector(".img-btn-next").remove();
     document.querySelector(".img-btn-prev").remove();
 }
+
 
 function changeImg(changeDir){
     document.querySelector("#current-img").remove();
@@ -64,6 +66,7 @@ function changeImg(changeDir){
     getImgWindow.appendChild(newImg);
 
     let calcNewImg;
+    
     if(changeDir === 1){
         calcNewImg = getLatestOpenedImg + 1;
         if(calcNewImg > galleryImages.length){
