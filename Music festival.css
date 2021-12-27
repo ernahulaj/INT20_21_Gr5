@@ -443,3 +443,11 @@ svg{
     padding: 0px;
 }
  
+@font-face {
+    font-family: NPFfont;
+    src: url(sansation_light.woff);
+}
+
+.gradient{
+    background-image: linear-gradient(to right,  rgb(123, 95, 224),rgb(203, 58, 216),rgb(238, 153, 153));
+}
