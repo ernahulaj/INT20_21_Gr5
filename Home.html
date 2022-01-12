@@ -14,10 +14,14 @@
     console.warn("Faqja eshte ngarkuar!");
     </script>
     
+    <script>
     $(document).ready(function(){
     $("#animate_text").click(function(){
      var animate_text = $("#animate_text"); 
-    }
+     animate_text.animate({fontSize: '1.5em'}, "slow");
+    });
+    });
+    </script>
 </head>
     
 <body>
