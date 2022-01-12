@@ -47,12 +47,12 @@
     background-image: url("../gallery/thumbs/sh6.jpeg");
 }
 #index-gallery .sh7{
- grid-area: sh7;
-    background-image: url("gallery/thumbs/sh7.jpeg");
+    grid-area: sh7;
+    background-image: url("../gallery/thumbs/sh7.jpeg");
 }
 #index-gallery .sh8{
-grid-area: sh8;
-    background-image: url("gallery/thumbs/sh8.jpeg");
+    grid-area: sh8;
+    background-image: url("../gallery/thumbs/sh8.jpeg");
 }
 /*Gallery image titles*/
 .gallery-img div{
