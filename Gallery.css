@@ -18,12 +18,13 @@
     cursor: pointer;
 }
 /*Images*/
-#index-gallery .h1{
-    grid-area: gallery-h1;
-}
 #index-gallery .sh1{
     grid-area: sh1;
-    background-image: url("gallery/thumbs/sh1.jpeg");
+    background-image: url("../gallery/sh1.jpg");
+}
+#index-gallery .sh2{
+    grid-area: sh2;
+    background-image: url("../gallery/thumbs/sh2.jpeg");
 }
 #index-gallery .sh2{
     grid-area: sh2;
