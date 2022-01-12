@@ -119,9 +119,11 @@
     color: white;
     cursor: pointer;
 }
+
 .img-btn-next:hover{
     opacity: 0.8;
 }
+
 .img-btn-prev{
     display: block;
     padding: 6px 10px;
@@ -133,6 +135,7 @@
     color: white;
     cursor: pointer;
 }
+
 .img-btn-prev:hover{
     opacity: 0.8;
 }
