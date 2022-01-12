@@ -9,6 +9,7 @@
     "sh4 sh4 sh5 sh5"
     "sh7 sh6 sh6 sh8";
 }
+
 #index-gallery .gallery-img{
     width: 100%;
     height: 450px;
@@ -17,15 +18,18 @@
     background-position: center;
     cursor: pointer;
 }
+
 /*Images*/
 #index-gallery .sh1{
     grid-area: sh1;
     background-image: url("../gallery/sh1.jpg");
 }
+
 #index-gallery .sh2{
     grid-area: sh2;
     background-image: url("../gallery/thumbs/sh2.jpeg");
 }
+
 #index-gallery .sh2{
     grid-area: sh2;
     background-image: url("gallery/thumbs/sh2.jpeg");
