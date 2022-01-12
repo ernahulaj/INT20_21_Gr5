@@ -40,11 +40,11 @@
 }
 #index-gallery .sh5{
     grid-area: sh5;
-    background-image: url("gallery/thumbs/sh5.jpeg");
+    background-image: url("../gallery/thumbs/sh5.jpeg");
 }
 #index-gallery .sh6{
-     grid-area: sh6;
-    background-image: url("gallery/thumbs/sh6.jpeg");
+    grid-area: sh6;
+    background-image: url("../gallery/thumbs/sh6.jpeg");
 }
 #index-gallery .sh7{
  grid-area: sh7;
