@@ -32,11 +32,11 @@
 }
 #index-gallery .sh3{
     grid-area: sh3;
-    background-image: url("gallery/thumbs/sh3.jpeg");
+    background-image: url("../gallery/thumbs/sh3.jpeg");
 }
-#index-gallery .sh4{    
+#index-gallery .sh4{
     grid-area: sh4;
-    background-image: url("gallery/thumbs/sh4.jpeg");
+    background-image: url("../gallery/thumbs/sh4.jpeg");
 }
 #index-gallery .sh5{
     grid-area: sh5;
