@@ -75,15 +75,18 @@
     justify-content: center;
     align-items: center;
 }
+
 .gallery-img a{
     font-size: 25px;
     color: #fff;
     text-decoration: none;
 }
+
 .gallery-img div:hover{
     opacity: 0.8;
     transition: all ease-in-out 100ms;
 }
+
 /* Popup window when clicked*/
 .img-window{
     width: 100vw;
@@ -98,11 +101,12 @@
     align-items: center;
     z-index: 100;
 }
+
 .img-window img{
     max-height: 80vh;
     max-width: 90vw;
 }
-\
+
 /* Next image*/
 .img-btn-next{
     display: block;
