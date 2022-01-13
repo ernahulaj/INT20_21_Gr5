@@ -22,7 +22,7 @@ if(galleryImages){ //vlere boolean qe eshte true nese galleryImages permban anet
 
             let newImg = document.createElement("img");
             newImgWindow.appendChild(newImg);
-            newImg.setAttribute("src","gallery/"+setNewImgUrl+".jpg"); //shfaqet fotoja e re me format .jpg
+            newImg.setAttribute("src","../gallery/"+setNewImgUrl+".jpg");
             newImg.setAttribute("id","current-img");
 
             newImg.onload = function(){ //fillimisht ngarkohet fotoja pastaj krijohen butonat
