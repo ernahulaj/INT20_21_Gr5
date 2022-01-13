@@ -80,7 +80,7 @@ function changeImg(changeDir){ //ne rastin kur klikojme ne butona
         }  
     }
     
-    newImg.setAttribute("src", "gallery/sh"+calcNewImg+".jpg");
+    newImg.setAttribute("src", "../gallery/sh"+calcNewImg+".jpg");
     newImg.setAttribute("id", "current-img");
 
     getLatestOpenedImg = calcNewImg;
