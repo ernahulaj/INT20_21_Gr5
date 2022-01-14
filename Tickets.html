@@ -150,9 +150,10 @@ function startWorker() {
                 <label for="personal nr">Personal Number:</label>
                 <input type="text" placeholder="XXXXXXXXXX" required>
                 <label for="email">Email:</label>
-                <input type="email" placeholder="Enter email address" required>
+                <input type="email" placeholder="Enter email address" >
+                <span></span>
                 <label for="Tel">Phone number:</label>
-                <input type="tel" pattern="+[0-9]{3} [0-9]{2} [0-9]{3} [0-9]{3}" placeholder="+383 4X XXX XXX" required>
+                <input type="tel" pattern="+[0-9]{3} [0-9]{2} [0-9]{3} [0-9]{3}" autocomplete='tel' placeholder="+383 4X XXX XXX" required>
                 <label for="tickets" >Choose your ticket: </label>
                 <select name="tickets" id="tickets">
                     <option value="BELIEVERS">BELIEVERS</option>
