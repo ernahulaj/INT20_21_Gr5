@@ -98,6 +98,7 @@ function startWorker() {
           if(typeof(w) == "undefined") {
                w = new Worker("webworker.js");
     }
+           w.onmessage = function(event) {
     </script> 
     
     </section>
