@@ -241,3 +241,5 @@ function startWorker() {
         const regex = /([a-z 0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
         if(regex.test(email.value)){
             span[0].innerText = "Your email is valid";
+            span[0].style.color = 'lime';
+        }
