@@ -106,7 +106,8 @@ function startWorker() {
     </script> 
     
     function stopWorker() { 
-  w = undefined;
+      w.terminate();
+      w = undefined;
 }
     </section>
 
