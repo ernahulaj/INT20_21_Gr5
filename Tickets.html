@@ -99,6 +99,10 @@ function startWorker() {
                w = new Worker("webworker.js");
     }
            w.onmessage = function(event) {
+                 document.getElementById("result").innerHTML = event.data;
+    };
+  } 
+}
     </script> 
     
     </section>
