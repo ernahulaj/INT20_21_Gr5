@@ -237,3 +237,5 @@ function startWorker() {
     let email = document.getElementById('email');
     let number = document.getElementById('tel');
     let span = document.getElementsByTagName('span');
+ email.onkeydown = function(){
+        const regex = /([a-z 0-9\.-]+)@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
