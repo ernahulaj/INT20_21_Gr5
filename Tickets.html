@@ -253,3 +253,5 @@ function startWorker() {
         const regexn = /[0-9]{11}$/g;
         if(regexn.test(number.value)){
             span[1].innerText = "Your phone number is valid";
+            span[1].style.color = 'lime';
+        }
