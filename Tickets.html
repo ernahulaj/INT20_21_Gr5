@@ -17,6 +17,9 @@
             throw "Number of tickets is empty!";
         if(isNaN(nrTickets)) 
             throw "Number of tickets is not a number!";
+        nrTickets = Number(nrTickets);
+        if(nrTickets < 1) 
+            throw "Number of tickets is too low!";
 <style>
 
     .buy_ticket{
