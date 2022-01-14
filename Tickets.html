@@ -20,6 +20,9 @@
         nrTickets = Number(nrTickets);
         if(nrTickets < 1) 
             throw "Number of tickets is too low!";
+        if(nrTickets > 6) 
+            throw "Number of tickets is too high!";
+      }
 <style>
 
     .buy_ticket{
