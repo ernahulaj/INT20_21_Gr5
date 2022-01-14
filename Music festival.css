@@ -392,7 +392,7 @@ svg{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: url(Header\ background.jpg);
+    background-image: url("../About\ Us/Header background.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
