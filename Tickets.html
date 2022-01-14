@@ -12,6 +12,9 @@
 <script>
     function validationFunction() {
       let nrTickets = document.getElementById("nrTickets").value;
+        try {
+        if(nrTickets == "") 
+            throw "Number of tickets is empty!";
 <style>
 
     .buy_ticket{
