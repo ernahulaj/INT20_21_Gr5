@@ -1,4 +1,4 @@
-# INT20_21_Gr5
+# INT21_22_Gr5
 This repository contains HTML and CSS files that implement a project in the subject "INTERNETI" in FIEK, UP.
 
 ### Additional information
